@@ -671,4 +671,32 @@ git config --global user.email "youremail@example.com"
 git commit -m "Initial commit: Add WordPress site template files"
 ```
 
+## Step 8.2: Push the code to your Github repository
+
+After initializing your Git repository and adding your WordPress site template, the next step is to push your code to a remote repository on GitHub. This step is crucial for version control and collaboration.
+
+  + Create a Remote Repository on GitHub: Log into your GitHub account and create a new repository named **WordPress-based.** Leave the repository empty without initializing it with a README, .gitignore, or license.
+
+  ![](./img/18a.git.add.png)
+
+### Step 8.2: Push the code to your Github repository
+After initializing your Git repository and adding your WordPress site template, the next step is to push your code to a remote repository on GitHub. This step is crucial for version control and collaboration.
+
+   + Create a Remote Repository on GitHub: Log into your GitHub account and create a new repository named WordPress-based. Leave the repository empty without initializing it with a README, .gitignore, or license. 
+
+![](./img/18b.create.repository.png)
+![](./img/18.push.repo.command.png)
+
+   + Link Your Local Repository to GitHub: In your terminal, within your project directory, add the remote repository URL to your local repository configuration.
+
+   + Push Your Code: Upload Your Local Repository Content to GitHub Once you have linked your local repository to GitHub, use the following command to push your commits from your local main branch to the remote repository. This enables you to store your project in the cloud and share it with others.
+
+Commands:
+
+```
+git remote add origin https://github.com/Joy-it-code/WordPress-based.git
+git branch -M main
+git push -u origin main
+```
+
 
